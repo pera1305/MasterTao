@@ -1,0 +1,47 @@
+::selection {
+    color: $text-color;
+    background-color: $color-secondary;
+}
+
+
+body {
+    background-color: $bg-primary;
+    color: $text-color;
+    font-family: $font-primary;
+}
+
+a {
+    color: $color-primary;
+
+    &:hover {
+        color: $color-primary;
+        text-decoration: none;
+    }
+}
+
+
+
+
+.container-xxl {
+    max-width: 1820px;
+}
+
+.wf-300 {
+    font-weight: 300;
+}
+
+.wf-400 {
+    font-weight: 400;
+}
+
+.wf-600 {
+    font-weight: 600;
+}
+
+.wf-700 {
+    font-weight: 700;
+}
+
+.check-button {
+    margin-bottom: 14px;
+}
