@@ -1,0 +1,50 @@
+@media screen and (max-width: 991px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    header {
+        .navbar {
+            padding-top: 19px;
+            padding-bottom: 17px;
+            margin-bottom: 0;
+            transition: .3s;
+            &.margin-bottom {
+              margin-bottom: 109px;  
+            }
+        }
+
+        .navbar-nav {
+            text-align: center;
+            padding: 34px 0 28px;
+        }
+
+        .nav-link {
+            font-size: 24px;
+            line-height: 200%;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .navbar-collapse {
+            background-color: #363A4D;
+            margin: 0 -20px 0;
+            padding: 0 40px;
+            transition: 1s;
+            transform: translate(0, 15px);
+            text-align: center;
+        }
+
+        .btn {
+            justify-content: center;
+            margin: 0 0 60px;
+            width: 100%;
+            padding: 22px 26.7px;
+            letter-spacing: 0.6px;
+            max-width: 295px;
+        }
+    }
+}
+
