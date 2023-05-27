@@ -1,6 +1,17 @@
 $( document ).ready(function() {
-    $('.single-item').slick();
-    Fancybox.bind('[data-fancybox="gallery"]', {
-        // Your custom options
-      });
+  $('.first-screen-slider').slick({
+      dots: true,
+      speed: 1000,
+      appendArrows: ".container-arrows",
+      responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              arrows: false,
+              // fade: true,
+            }
+          },
+           
+      ]
+  });
 });
