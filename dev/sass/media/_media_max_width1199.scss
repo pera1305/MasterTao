@@ -3,9 +3,48 @@
         .slick-arrow {
             background-position: 20px;
         }
-    } 
+    }
+
+    .calculation .container:after {
+        right: 0;
+    }
 }
 
 
 @media screen and (max-width: 1199px) {
+    .calculation {
+        .container {
+            &:after {
+
+                content: "";
+                position: absolute;
+                right: 0px;
+                width: 250vw;
+                height: 400vh;
+
+
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+    .calculation {
+
+
+        .container {
+
+
+            &:after {
+
+                content: "";
+                right: 0px;
+                width: 180vw;
+                height: 320vh;
+
+            }
+        }
+    }
 }

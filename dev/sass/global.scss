@@ -366,26 +366,50 @@ section {
 
     /*type 2*/
     &.text-left,
-    &.col-md-7 {
+    &.col-lg-7 {
         text-align: left;
+
         &:after {
             left: 0;
             transform: none;
         }
     }
 
-     /*type 3*/
-     &.col-md-7 {
-        i {
-            width: 85px;
-            height: 2px;
-            background-color: #89C249;
-            display: inline-block;
-            margin-bottom: 12px;
+    /*type 3*/
+    &.col-lg-7 {
+        margin-bottom: 35px;
+        h2 {
+            &:after {
+                content: "";
+                position: static;
+                display: inline-block;
+                width: 85px;
+                height: 2px;
+                margin: 10px 10px 10px 19px;
+                background-color: $color-secondary;
+            }
         }
+
         &:after {
             display: none;
 
         }
     }
+}
+
+// calculation-form
+
+.input-box {
+    margin-bottom: 17px;
+
+    label {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 126%;
+        margin-bottom: 6px;
+    }
+}
+
+.padding-top {
+    padding-top: 22px;
 }
