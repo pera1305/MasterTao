@@ -9,4 +9,38 @@
             }
         }
     }
+
+    .delivery {
+        .slick-slide:after {
+            left: 0;
+            right: 0;
+        }
+       .slider-template__img-box {
+            margin-bottom: 43px;
+        }
+        .slider-template__btn-row{
+            padding: 0 10px;
+            .btn {
+                white-space: nowrap;
+                width: 138px;
+                min-width: 138px;
+            }
+        } 
+    }
+
+    .slider-template {
+       width: 335px;
+       
+        .slick-slide {
+            padding: 0 0 27px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .slick-dots {
+            margin-top: 33px;
+        }
+    }
+
+
 }
+

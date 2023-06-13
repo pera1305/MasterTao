@@ -48,3 +48,21 @@
         }
     }
 }
+
+@media screen and (max-width: 1400px) {
+    .slider-template {
+        margin: 0 auto;
+        width: 780px;
+
+        .slick-arrow {
+            &.slick-next {
+                right: -80px;
+            }
+
+            &.slick-prev {
+                left: -80px;
+            }
+
+        }
+    }
+}
