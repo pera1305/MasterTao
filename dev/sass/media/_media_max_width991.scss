@@ -103,6 +103,7 @@
         h2 {
             font-size: 24px;
             text-align: center;
+           
         }
 
         &.text-left {
@@ -156,7 +157,7 @@
 
     .advantages {
         &.container-fluid {
-
+                min-width: 280px;
             &:before {
                 width: 100%;
                 left: 0;
@@ -180,9 +181,9 @@
    
 
 
-    .slider-template {
-       max-width: 390px;
-    }
+    // .slider-template {
+    //    max-width: 390px;
+    // }
 
    
 }

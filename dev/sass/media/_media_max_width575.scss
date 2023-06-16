@@ -2,45 +2,65 @@
     .calculation-form {
         .btn {
             width: 92%;
-            
+
             .icon {
                 margin: 0 -14px 0 auto;
-           
+
             }
         }
     }
 
     .delivery {
+        
+        .container{
+           padding: 0 10px;
+        }
+       
         .slick-slide:after {
             left: 0;
             right: 0;
         }
-       .slider-template__img-box {
+
+        .slider-template__img-box {
             margin-bottom: 43px;
         }
-        .slider-template__btn-row{
+
+        .slider-template__btn-row {
             padding: 0 10px;
+
             .btn {
                 white-space: nowrap;
                 width: 138px;
                 min-width: 138px;
+                height: 60px;
             }
-        } 
+        }
     }
+    section.advantages.container-fluid {
+        padding: 55px 0 52px;
+    }
+    .template-title h2 {
+        margin: 0 auto;
+    }
+    
+   
 
     .slider-template {
-       width: 335px;
-       
+        width: 335px;
+
         .slick-slide {
             padding: 0 0 27px;
             margin-right: 10px;
             margin-left: 10px;
         }
-        .slick-dots {
-            margin-top: 33px;
+        .slick-dots{
+            margin-top: 32px;
         }
+       
     }
 
-
+    .container {
+        margin: 0 auto;
+    }
+    
 }
-
