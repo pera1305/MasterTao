@@ -90,3 +90,64 @@
     }
 
 }
+
+// Services
+
+.services {
+    .slider-template {
+        .slick-slide {
+            padding: 0 45px 27px;
+            height: 482px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            &::after {
+                content: "";
+                position: absolute;
+                left: 15px;
+                right: 15px;
+                top: 0;
+                bottom: 0;
+                background: linear-gradient(0deg, rgba(4, 5, 17, 0.91) 2%, rgba(88, 88, 88, 0) 100%);
+                border-radius: 20px;
+                z-index: -1;
+                
+                
+            }
+
+        }
+
+        
+
+
+        &__img-box {
+            position: absolute;
+            left: 15px;
+            right: 15px;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+            
+
+            img {
+                border-radius: 20px;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        }
+
+        &__title {
+            margin-bottom: 13px;
+        }
+    }
+
+    // .slider-template__img-box,
+    // .slider-template__title,
+    // .slider-template__description,
+    // .slider-template__btn-row {
+    //    z-index: 4;
+    // }
+
+}

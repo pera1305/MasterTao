@@ -11,11 +11,12 @@
     }
 
     .delivery {
-        
-        .container{
-           padding: 0 10px;
+
+        .container {
+            padding: 0 10px;
+
         }
-       
+
         .slick-slide:after {
             left: 0;
             right: 0;
@@ -36,31 +37,98 @@
             }
         }
     }
+
     section.advantages.container-fluid {
         padding: 55px 0 52px;
     }
+
     .template-title h2 {
         margin: 0 auto;
     }
-    
-   
+
+
 
     .slider-template {
         width: 335px;
 
         .slick-slide {
             padding: 0 0 27px;
-            margin-right: 10px;
-            margin-left: 10px;
+            margin-right: 5px;
+            margin-left: 5px;
         }
-        .slick-dots{
+
+        .slick-dots {
             margin-top: 32px;
         }
-       
+
     }
 
-    .container {
-        margin: 0 auto;
+    // services
+
+    .services {
+        .container {
+            padding: 0 10px;
+
+        }
+
+
+
+
+
+        .slider-template {
+            
+           
+
+
+
+            &__img-box {
+                left: 0;
+                right: 0;
+
+                img {
+                    border-radius: 20px;
+                    height: 100%;
+
+                    object-fit: cover;
+                }
+            }
+
+            .slick-slide {
+                padding: 0 30px 27px;
+                margin-right: 5px;
+                margin-left: 5px;
+                &::after {
+                    
+                    left: 0;
+                    right: 0;
+                    
+                    
+                    
+                }
+            }
+
+            .slick-dots {
+                margin-top: 32px;
+            }
+
+        }
+
     }
+
+    .services.container-fluid {
+        padding: 55px 0 52px;
+    }
+
+    section.container-fluid {
     
+         
+            &:before {
+               
+               left: 0;
+               right: 0;
+               border-radius: 0;
+               
+            }
+        }
+
 }
