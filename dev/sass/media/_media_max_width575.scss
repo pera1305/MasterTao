@@ -76,8 +76,8 @@
 
 
         .slider-template {
-            
-           
+
+
 
 
 
@@ -97,13 +97,14 @@
                 padding: 0 30px 27px;
                 margin-right: 5px;
                 margin-left: 5px;
+
                 &::after {
-                    
+
                     left: 0;
                     right: 0;
-                    
-                    
-                    
+
+
+
                 }
             }
 
@@ -120,15 +121,111 @@
     }
 
     section.container-fluid {
-    
-         
-            &:before {
-               
-               left: 0;
-               right: 0;
-               border-radius: 0;
-               
-            }
+
+
+        &:before {
+
+            left: 0;
+            right: 0;
+            border-radius: 0;
+
+        }
+    }
+
+
+    .about-company {
+
+        .template-title {
+            margin-top: 54px;
         }
 
+        .about-company-content {
+            text-align: justify;
+            padding: 0 10px;
+            min-height: 357px;
+            margin: 0 auto 425px;
+        }
+
+        .container {
+
+
+            &:after {
+                left: 50%;
+                transform: translateX(-50%);
+                top: 105%;
+                width: 319px;
+                height: 326px;
+
+            }
+        }
+    }
+
+    .questions {
+
+        .accordion-and-form {
+           
+
+            .accordion {
+                max-width: 335px;
+
+                .accordion-button {
+
+                    font-size: 16px;
+
+                    padding: 20px 78px 20px 20px;
+
+
+                }
+
+
+                .collapsed {
+
+                    font-weight: 700;
+                    line-height: 123.5%;
+                    padding: 21px 78px 20px 22px;
+                    font-size: 16px;
+                }
+
+
+                .accordion-button:not(.collapsed)::after {
+                    content: "";
+                    position: absolute;
+                    top: 17px;
+                    left: 290px;
+                }
+
+                .accordion-button::after {
+
+                    content: "";
+                    position: absolute;
+                    top: 17px;
+                    left: 290px;
+
+                }
+            }
+
+            .form-small {
+                margin-top: 20px;
+            }
+
+
+
+        }
+
+
+
+
+        .form-small {
+            margin: 15px 0;
+            width: 335px;
+
+            button.btn.btn-primary.btn-lg {
+                white-space: nowrap;
+
+                .icon {
+                    margin: 0 -14px 0 46px;
+                }
+            }
+        }
+    }
 }

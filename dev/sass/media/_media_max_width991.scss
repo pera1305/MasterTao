@@ -103,7 +103,7 @@
         h2 {
             font-size: 24px;
             text-align: center;
-           
+
         }
 
         &.text-left {
@@ -157,7 +157,8 @@
 
     .advantages {
         &.container-fluid {
-                min-width: 280px;
+            min-width: 280px;
+
             &:before {
                 width: 100%;
                 left: 0;
@@ -169,23 +170,71 @@
                 margin-bottom: -68px;
             }
         }
-       
+
     }
 
     .advantage-title {
         max-width: 263px;
-        margin: 0  auto;
-       
+        margin: 0 auto;
+
     }
 
-   
+
 
 
     .slider-template {
-       max-width: 365px;
+        max-width: 365px;
     }
-    .container-fluid{
+
+    .container-fluid {
         padding: 50px 0 50px;
     }
-   
+
+    .about-company {
+        .about-company-content {
+            padding: 0 20px;
+            margin: 0 auto 700px;
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 200px;
+
+
+
+        }
+
+        .container {
+
+
+            &:after {
+
+                top: 35%;
+                left: 16%;
+
+            }
+        }
+    }
+
+
+
+}
+
+@media screen and (max-width: 1150px) {
+    .questions {
+        .accordion-and-form {
+            flex-direction: column;
+
+
+
+
+
+        }
+
+        .col-md-8,
+        .col-md-4 {
+            margin: 0 auto;
+        }
+    }
 }

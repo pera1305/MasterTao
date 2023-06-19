@@ -1,0 +1,30 @@
+.about-company-description-one,
+.about-company-description-two {
+  max-width: 555px;
+    font-size: 18px;
+    line-height: 170%
+}
+
+.about-company {
+   
+
+    .container {
+        position: relative;
+        margin-bottom: 136px;
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: 613px;
+            bottom: -113px;
+            max-width: 600px;
+            width: 36em;
+            height: 58em;
+            background: url(assets/img/about-company-image.png)right bottom/contain no-repeat;
+        }
+    }
+
+    .template-title {
+        margin-top: 145px;
+    }
+}
