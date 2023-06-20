@@ -1,0 +1,59 @@
+.ready-for-cooperation {
+
+    
+    .template-title {
+        margin-bottom: 62px;
+    }
+
+    p::first-letter{
+        margin-left:5px ;
+    }
+
+    
+    .cooperation-description {
+        position: relative;
+        font-size: 17px;
+        font-weight: 200;
+        line-height: 157%;
+
+        
+
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: #FFF;
+            width: 5px;
+            height: 5px;
+            top: 10px;
+            left: -10px;
+            border-radius: 50%;
+        }
+    }
+
+    .img-fluid.description-one {
+        margin-left: 30px;
+        margin-bottom: 70px;
+        height: 75%;
+    }
+
+    .img-fluid.description-two {
+        padding: 0 45px 0 0;
+        margin-bottom: 70px;
+       
+    }
+
+    .row:last-child {
+        .col-md-6:last-child {
+            margin-top: 20px;
+           
+            
+        }
+    }
+
+    .second-description{
+        margin-top: -40px;
+    }
+
+   
+
+}

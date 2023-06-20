@@ -217,6 +217,65 @@
         }
     }
 
+    .ready-for-cooperation {
+        .container {
+
+            .first-description {
+
+                flex-direction: column-reverse;
+            }
+
+            .second-description {
+                flex-direction: column;
+            }
+
+            .img-fluid.description-one {
+                margin-bottom: 36px;
+            }
+
+        }
+
+    }
+
+
+    // Footer
+
+    footer {
+        .container {
+            .footer-address-and-social {
+                margin: 0 auto;
+                text-align: center;
+        
+                .social-images {
+                    justify-content: center;
+                    align-items: center;
+        
+                   
+                }
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 650px;
+                height: 2px;
+                background-color: #E58D35;
+            }
+
+            .about-services,
+            .about-trucking,
+            .about-info {
+                display: none;
+            }
+        }
+    }
+
+  
+
+   
 
 
 }
@@ -226,7 +285,13 @@
         .accordion-and-form {
             flex-direction: column;
 
+            .accordion{
+                max-width:550px;
+            }
 
+            .form-small {
+                margin-top: 20px;
+            }
 
 
 
@@ -237,4 +302,56 @@
             margin: 0 auto;
         }
     }
+
+}
+
+@media screen and (max-width: 1250px) {
+
+    .ready-for-cooperation {
+        .container {
+
+
+            .first-description {
+
+                flex-direction: column-reverse;
+            }
+
+            .second-description {
+                flex-direction: column;
+            }
+
+            .img-fluid.description-one {
+                margin-bottom: 36px;
+            }
+
+            .row {
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .cooperation-description {
+
+                margin-bottom: 21px;
+
+
+            }
+
+            .img-fluid.description-one {
+                height: 100%;
+                margin-left: 0;
+            }
+
+            .img-fluid.description-two {
+                margin: 30px auto 10px;
+            }
+
+        }
+
+    }
+
 }

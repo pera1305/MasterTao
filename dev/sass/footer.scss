@@ -1,9 +1,3 @@
-footer {
-    height: 100px;
-    background: $color-secondary;
-    margin-top: 56px;
-}
-
 .markup {
 
     position: fixed;
@@ -24,3 +18,84 @@ footer {
     }
 
 }
+
+
+
+footer {
+   
+    margin-top: 56px;
+    margin-bottom: 60px;
+    
+
+    .container{
+        position: relative;
+        
+     
+       
+
+        &::before{
+            content: "";
+            position: absolute;
+            bottom:100% ;
+            left: 0;
+            width:100% ;
+            height: 2px;
+            background-color: #E58D35;
+            }
+
+            .footer-main{
+                padding: 40px 0 0 0;
+                display: flex;
+
+                .about-trucking{
+                    margin-left: 90px;
+                }
+                .about-title{
+                    text-align: left;
+                    font-size: 20px;
+                    font-style: bold;
+                    line-height: 146%;
+                }
+
+                .list-of-about{
+                    margin-top: 14px;
+                   
+                }
+                .about-item{
+                    font-size: 16px;
+                    line-height: 161%;
+                    font-weight: 400;
+                    color: #85899C;
+                    display: block;
+                    text-align: left;
+                    margin-bottom: 6px;
+                }
+         
+                .address-block{
+                 font-size: 14px;
+                 line-height: 163%;
+                 color: #fff;
+                 text-decoration: none;
+                 span{
+                    text-decoration: underline;
+                 }
+                }
+                ul{
+                    list-style: none;
+                    text-decoration: none;
+                    margin-left: -30px;
+                    margin-top: 29px;
+                }
+                .social-images{
+                    display: flex;
+                    
+                    column-gap: 10px;
+                }
+             }
+    }
+
+    
+}
+
+
+
