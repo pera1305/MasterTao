@@ -1,13 +1,31 @@
 @media screen and (max-width: 575px) {
+
+    section {
+        margin: 0 auto 60px;
+    }
+
+
+    .calculation {
+
+        .template-title h2 {
+            margin: -45px auto 0;
+        }
+
+    }
+
+
     .calculation-form {
         .btn {
-            width: 92%;
+            width: 100%;
+            margin: 0;
 
             .icon {
                 margin: 0 -14px 0 auto;
 
             }
         }
+
+
     }
 
     .delivery {
@@ -166,7 +184,7 @@
 
             .col-md-8,
             .col-md-4 {
-                margin: 0 ;
+                margin: 0;
             }
 
 
@@ -227,29 +245,34 @@
         .form-small {
             margin: 15px 0;
 
-
             button.btn.btn-primary.btn-lg {
                 white-space: nowrap;
+                margin: 32px auto 50px;
 
                 .icon {
-                    margin: 0 -14px 0 46px;
+                    
+                    margin: 0 0 0 100px;
+
                 }
             }
         }
     }
+
     section.container-fluid.ready-for-cooperation {
         padding: 90px 10px 65px;
     }
+
     .ready-for-cooperation {
         .container {
             padding-left: 10px;
             padding-right: 10px;
 
-            .btn-lg{
+            .btn-lg {
                 width: 100%;
                 margin: 0 auto;
-                .icon{
-                    margin: 0 -14px 0 130px;
+
+                .icon {
+                    margin: 0 -14px 0 195px;
                 }
             }
         }
@@ -259,7 +282,8 @@
 
 
         }
-        .img-fluid.description-two{
+
+        .img-fluid.description-two {
             padding: 0;
         }
 
